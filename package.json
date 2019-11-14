@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-flash",
+  "version": "1.0.0",
+  "description": "flash Messages",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shup30/Node-FlashMessages-Demo.git"
+  },
+  "author": "Shubham Patil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shup30/Node-FlashMessages-Demo/issues"
+  },
+  "homepage": "https://github.com/shup30/Node-FlashMessages-Demo#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.4",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "express-flash": "0.0.2",
+    "express-session": "^1.16.2"
+  }
+}
